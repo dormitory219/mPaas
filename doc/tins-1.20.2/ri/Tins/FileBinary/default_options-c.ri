@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"default_options:ETI"&Tins::FileBinary::default_options;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"6Default options can be queried/set via this hash.;T:
+@fileI"lib/tins/file_binary.rb;T:0@omit_headings_from_table_of_contents_below0T@I"Tins::FileBinary;TcRDoc::NormalModule0

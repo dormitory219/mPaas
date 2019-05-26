@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/reuse_xcode_plugins'
+
+begin
+  if CLI.unsign_xcode?
+    XcodeUnsigner.unsign_xcode
+  elsif CLI.restore_xcode?
+    XcodeUnsigner.restore_xcode
+  elsif CLI.update_plugins?
+    PluginsUpdater.update_plugins
+  else
+    puts "请输入参数--unsign(取消签名)，--restore(恢复签名)，--update_plugins(更新所有插件UUID)"
+  end 
+rescue Interrupt
+end

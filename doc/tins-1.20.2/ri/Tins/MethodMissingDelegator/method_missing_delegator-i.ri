@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"method_missing_delegator:ETI":Tins::MethodMissingDelegator#method_missing_delegator;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"OThis object will be the receiver of all missing method calls, if it has a ;TI"value other than nil.;T:
+@fileI"lib/tins/dslkit.rb;T:0@omit_headings_from_table_of_contents_below0F@I"!Tins::MethodMissingDelegator;TcRDoc::NormalModule0

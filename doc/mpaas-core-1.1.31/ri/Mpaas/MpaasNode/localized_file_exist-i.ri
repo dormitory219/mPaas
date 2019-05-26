@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"localized_file_exist:ETI"*Mpaas::MpaasNode#localized_file_exist;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"H本地化的文件是否存在，标记之前是不是 copy 模式 ;TI"7!!注意，只有在本地化之后才可以使用;T:
+@fileI"Wlib/mpaas-core/mpaas_framework/mpaas_node/mpaas_node_helper/localization_helper.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Mpaas::MpaasNode;TcRDoc::NormalClass0

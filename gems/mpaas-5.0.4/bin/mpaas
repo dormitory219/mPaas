@@ -1,0 +1,18 @@
+#!/bin/sh
+
+export GEM_HOME=/Users/Shared/.mpaaskit_gems:$GEM_HOME
+export GEM_PATH=/Users/Shared/.mpaaskit_gems:$GEM_PATH
+
+exec ruby -x. $0 "$@"
+
+#!/usr/bin/env ruby
+
+if $PROGRAM_NAME == __FILE__
+  $LOAD_PATH.unshift(File.expand_path('../lib', __dir__))
+  require 'rubygems'
+  gem 'mpaas'
+end
+
+require 'mpaas'
+
+Mpaas::Entry.start(ARGV)
